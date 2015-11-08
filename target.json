@@ -18,6 +18,7 @@
   "similarTo": [
     "mkit"
   ],
+  "toolchain": "CMake/toolchain.cmake",
   "config": {
     "hardware": {
       "pins": {
