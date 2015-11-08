@@ -4,7 +4,7 @@
   "inherits": {
     "nordic-nrf51822-16k-gcc": "*"
   },
-  "description": "Official mbed build target for the RedBearlab nrf51822 16KB chip.",
+  "description": "Unofficial mbed build target for the RedBearlab nrf51822 16KB chip.",
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
