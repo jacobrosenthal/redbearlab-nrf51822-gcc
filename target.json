@@ -2,7 +2,7 @@
   "name": "redbearlab-nrf51822-gcc",
   "version": "0.0.1",
   "inherits": {
-    "nordic-nrf51822-16k-gcc": "jacobrosenthal/target-nrf51822#fota-dat"
+    "nordic-nrf51822-16k-gcc": "jacobrosenthal/nordic-nrf51822-16k-gcc"
   },
   "description": "Unofficial mbed build target for the RedBearlab nrf51822 16KB chip.",
   "licenses": [
