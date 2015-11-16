@@ -37,5 +37,13 @@
         "I2C_SCL0": "p28"
       }
     }
+  },
+  "scripts": {
+    "debug": [
+      "valinor",
+      "--target",
+      "NRF51822",
+      "$program"
+    ]
   }
 }
