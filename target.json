@@ -2,7 +2,7 @@
   "name": "redbearlab-nrf51822-gcc",
   "version": "0.0.1",
   "inherits": {
-    "nordic-nrf51822-16k-gcc": "jacobrosenthal/nordic-nrf51822-16k-gcc"
+    "nordic-nrf51822-gcc-unofficial-fota": "^1.0.0"
   },
   "description": "Unofficial mbed build target for the RedBearlab nrf51822 16KB chip.",
   "licenses": [
@@ -12,13 +12,20 @@
     }
   ],
   "keywords": [
-    "mbed-official",
     "gcc"
   ],
   "similarTo": [
     "mkit"
   ],
   "config": {
+    "nrf51822": {
+      "ram_size": "16K"
+    },
+    "image": {
+      "heap": {
+        "warning_threshold": 1024
+      }
+    },
     "hardware": {
       "pins": {
         "LED1": "p15",
